@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Wenqing's Self-Intro</title>
+    <meta charset="UTF-8"> <!-- setup allow the webpage to understand better -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  It helps make the webpage responsive by ensuring 
+      it adapts properly to different screen sizes and resolutions -->
+
+    <link rel="stylesheet" href="css_files/style.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="Title">Hi! This is Wenqing Pan</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="Interest.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-content">
+
+        <main>
+            <h2>Avaliable Timeslot</h2>
+            <table class="table">
+                <!-- <tr> table raw -->
+                <!-- <th> table header -->
+                <tr class="tr">
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+
+                <tr>
+                    <th>✔</th>
+                    <th>×</th>
+                    <th>×</th>
+                    <th>✔</th>
+                    <th>✔</th>
+                    <th>×</th>
+                    <th>×</th>
+                </tr>
+
+            </table>
+            <h2>Contact Me</h2>
+
+        </main>
+        
+
+        <!-- cite from Prof. Ziv's Lab3 material files -->
+        <form action="results.html" method="GET">
+            <div>
+                <label for="fname"> First Name: </label>
+                <input type="text" id="fname" name="fname" placeholder="input your first name..." required>
+            </div>
+
+
+
+            <div>
+                <label for="lname"> Last Name: </label>
+                <input type="text" id="lname" name="lname" placeholder="input your last name..." required>
+            </div>
+
+            <div>
+                <label for="psw"> Password: </label>
+                <input type="password" id="psw" name="psw" placeholder=" your password" maxlength="10" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone No.:</label>
+                <input type="tel" id="phone" name="phone" placeholder="your phone...">
+            </div>
+
+            <div>
+                <label for="bdate">Birthday:</label>
+                <input type="date" id="bdate" name="bdate">
+            </div>
+            
+
+            <div>
+                <label for="title"> Title: </label>
+                <label for="Mr."> Mr. </label>
+                <input type="radio" ID=" Mr." name="Mr." value="Mr.">
+
+                <label for="Ms"> Ms </label>
+                <input type="radio" ID=" Ms" name="Ms" value="Ms">
+
+                <label for="Mrs"> Mrs </label>
+                <input type="radio" ID=" Mrs" name="Mrs" value="Mrs">
+
+                <label for="Dr."> Dr. </label>
+                <input type="radio" ID="Dr." name="Dr." value="Dr.">
+            </div>
+
+            <div>
+                <label for="subscribe">Subscribe: </label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </div>
+
+            <div>
+                <label for="pymt">Payment method:</label>
+                <select id="pymt" name="pymt">
+                    <option value="visa">visa</option>
+                    <option value="mastercard">mastercard</option>
+                    <option value="wechat">wechat</option>
+                </select>
+
+            </div>
+            <div>
+                <label for="question">Questions to me:</label>
+                <input type="text" id="question" name="question">
+            </div>
+
+            <div>
+                <input type="reset">
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+
+    </div>
+
+    <footer>
+        Artist name:Wenqing Pan<br>
+        &copy; 2024 copyright reserved <br>
+        <a href="wp70@duke.edu">wp70@duke.edu</a>
+    </footer>
+</body>
+
+</html>
